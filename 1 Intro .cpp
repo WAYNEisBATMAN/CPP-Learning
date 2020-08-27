@@ -24,11 +24,13 @@ Here iostream file is included by the preprocessor. iostream file allows to perf
 Examples of some preprocessor directives are: #include, #define, #ifndef etc. 
 Remember that # symbol only provides a path that it will go to the preprocessor, and command such as include is  
 processed by preprocessor program. 
-There are 4 main types of preprocessor directives:
-1) Macros
-2) File Inclusion
-3) Conditional Compilation
-4) Other directives
+
+.There are 4 main types of preprocessor directives:
+
+.1) Macros
+.2) File Inclusion
+.3) Conditional Compilation
+.4) Other directives
 
 > For the detail part go to https://www.geeksforgeeks.org/cc-preprocessors/
 
@@ -71,14 +73,22 @@ This line is a c++ statement. Statements are executed in the same order that the
 
 This statement has four parts: 
 
-1) cout, 
+.1) cout 
    It identifies the standard character output device (usually, this is the computer screen). 
 
-2) << --> It is the insertion operator (<<), which indicates that what follows is inserted into cout. 
+.2) << --> It is the insertion operator (<<), which indicates that what follows is inserted into cout.
 
-3) A sentence within quotes ("Hello world!"), is the content inserted into the standard output.
+The insertion operator << is the one we usually use for output, 
+.Example --> cout << "This is output" << endl;
+It gets its name from the idea of inserting data into the output stream.
 
-4) endl -->
+The extraction operator >> is the one we usually use for input, as in:
+.Example --> cin >> X;
+It gets its name from the idea of extracting data from the input stream. 
+
+.3) A sentence within quotes ("Hello world!"), is the content inserted into the standard output.
+
+.4) endl --> endl manipulator is used to Terminate a line and flushes the buffer
 --------------------------------------------------------------------------------------------------------------------------
 
 / 5) return 0;
