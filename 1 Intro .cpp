@@ -95,8 +95,4 @@ It indicates that our program has been run successfully and we terminate our mai
  But function defintion, preprocessor directives and some more things like this do not need semicolon.
 
 
-
-
-
-to check 
 */
