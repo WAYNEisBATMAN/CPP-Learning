@@ -4,14 +4,14 @@ using namespace std; // 2
 
 int main() // 3
 {
-
-    cout << "Hello world!" << endl; // 4
-
-    return 0; // 5
+    int h;
+    cout << "Hello world!";
+    cin >> h;         // 4
+    print() return 0; // 5
 }
 //---------------------------------------------------------------------------------------------------------------------------
 
-/*
+/* 
 / 1) #include <iostream> 
 
 It is a Preprocessor Directive.
@@ -21,7 +21,7 @@ compiler or before compilation process.
 Preprocessor commands are known as directives. Each of these preprocessor directives start with #(hash) symbol.
 This preprocessor directive includes the file given within the angle brackets(<>) or inverted commas(" ").          
 Here iostream file is included by the preprocessor. iostream file allows to perform standard input and output operations.
-Examples of some preprocessor directives are: #include, #define, #ifndef etc. 
+,Example of some preprocessor directives are: #include, #define, #ifndef etc. 
 Remember that # symbol only provides a path that it will go to the preprocessor, and command such as include is  
 processed by preprocessor program. 
 
@@ -32,11 +32,15 @@ processed by preprocessor program.
 .3) Conditional Compilation
 .4) Other directives
 
-> For the detail part go to https://www.geeksforgeeks.org/cc-preprocessors/
+/ STREAM
+stream refers to the stream of characters that are transferred between the program thread and i/o. 
+Stream classes in C++ are used to input and output operations on files and io devices.
 
 NOTE: To include the file sometimes we use greater and smaller than sign, and sometimes we use double inverted commas.
 NOTE: The ‘<‘ and ‘>’ brackets tells the compiler to look for the file in standard directory(for default files/libraries).
 NOTE: The " and " commas tells the compiler to look for the file in user defined directory(for user defined files/libraries).
+
+> For the detail part go to https://www.geeksforgeeks.org/cc-preprocessors/
 -----------------------------------------------------------------------------------------------------------------------------
 
 / 2) using namespace std;      
@@ -49,9 +53,13 @@ Also it is used to specify the file/library which we are using from the included
 like std from iostream.
 This helps to avoid write again and again the name of the file in the program.
 
-As we can see here that namespace needs semi-colon at the end of the code.
+namespace statement needs semi-colon at the end of the code.
 
 For example: without using namespace we have to to use std with every cout command like this cout
+
+Namespace is a feature added in C++ and not present in C.
+Multiple namespace blocks with the same name are allowed. All declarations within those blocks are declared in the named scope.
+
 
 > https://www.geeksforgeeks.org/namespace-in-c/?ref=lbp
 -----------------------------------------------------------------------------------------------------------------------------

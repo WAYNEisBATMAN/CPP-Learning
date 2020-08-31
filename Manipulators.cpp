@@ -27,3 +27,6 @@ If we want to use these manipulators then we must include this header file in ou
 */
 
 // > https://www.geeksforgeeks.org/manipulators-in-c-with-examples/
+
+
+
