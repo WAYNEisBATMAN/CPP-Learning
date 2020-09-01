@@ -6,8 +6,8 @@ int main() // 3
 {
     int h;
     cout << "Hello world!";
-    cin >> h;         // 4
-    print() return 0; // 5
+    cin >> h; // 4
+    return 0; // 5
 }
 //---------------------------------------------------------------------------------------------------------------------------
 
@@ -87,16 +87,23 @@ This statement has four parts:
 .2) << --> It is the insertion operator (<<), which indicates that what follows is inserted into cout.
 
 The insertion operator << is the one we usually use for output, 
-.Example --> cout << "This is output" << endl;
 It gets its name from the idea of inserting data into the output stream.
+.Example --> cout << "This is output" 
 
-The extraction operator >> is the one we usually use for input, as in:
-.Example --> cin >> X;
+The extraction operator >> is the one we usually use for input, 
 It gets its name from the idea of extracting data from the input stream. 
+.Example --> cin >> X;
 
 .3) A sentence within quotes ("Hello world!"), is the content inserted into the standard output.
 
-.4) endl --> endl manipulator is used to Terminate a line and flushes the buffer
+.4) endl 
+endl is a manipulator(Helping Fucntion), which is used to Terminate a line and flushes the buffer.
+So endl is equal to \n and flush() functions. But while using endl we are compromising with the efficiency of the program.
+As Flushing of buffers is an Operating System task. Each time the buffer is flushed, a request has to be made to the OS 
+and these requests are comparatively expensive.
+
+
+> https://www.geeksforgeeks.org/avoid-using-stdendl/
 --------------------------------------------------------------------------------------------------------------------------
 
 / 5) return 0;
