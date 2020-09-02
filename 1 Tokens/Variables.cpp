@@ -36,12 +36,11 @@ bool - stores values with two states: true or false
 
 */
 
-// . We can also assign value to the cariable along with its declaration or after that.
+// . We can also assign value to the variables along with its declaration or after that.
 
-int hello;
+int hello; // Only declaration
 
-int hello = 2;
+int hello = 2; // Declaration + Value Assignment
 
 // > https://www.w3schools.com/cpp/cpp_variables.asp
 // > https://www.geeksforgeeks.org/variables-in-c/
-
