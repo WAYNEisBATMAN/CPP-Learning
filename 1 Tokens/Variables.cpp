@@ -16,7 +16,7 @@ NOTE: The name must not start with a number.
 /*
 / DECLARING/CREATING VARIABLES IN CPP
 
-.1) Declaring a single variable
+.1) Declaring a single variable:
 type variable_name;
 
 .2) Declaring multiple variables:
