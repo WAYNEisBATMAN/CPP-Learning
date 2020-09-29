@@ -8,7 +8,7 @@
 - Character (char)
 - Boolean (bool)
 - void  
-
+--------------------------------------------------------------------------------------------------------------------------
 
 .2) Derived 
 The data-types that are derived from the primitive or built-in datatypes are referred to as Derived Data Types.
@@ -17,7 +17,7 @@ The data-types that are derived from the primitive or built-in datatypes are ref
 - Arrays
 - Pointer 
 - Reference
-
+--------------------------------------------------------------------------------------------------------------------------
 
 .3) Abstract or User Defined
 These data types are defined by user itself. Like, defining a class in C++ or a structure. 
@@ -28,15 +28,9 @@ C++ provides the following user-defined datatypes:
 - Union
 - Enumeration
 - Typedef defined datatype
-
-
-
-
-
-
+--------------------------------------------------------------------------------------------------------------------------
 
 */
 
 // > https://www.geeksforgeeks.org/c-data-types/
 // > https://www.youtube.com/watch?v=JrnQ-915czY&list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL&index=4
-
