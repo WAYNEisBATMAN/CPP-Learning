@@ -28,8 +28,8 @@ C++ provides the following user-defined datatypes:
 - Class
 - Structure
 - Union
-- Enumeration
-- Typedef defined datatype
+- Enumeration(Enum)
+- Typedef 
 --------------------------------------------------------------------------------------------------------------------------
 
 */
