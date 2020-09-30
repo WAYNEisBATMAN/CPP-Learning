@@ -1,5 +1,7 @@
 /*
 / DATATYPES
+In C++, data types are declarations for variables. This determines the type and size of data associated with variables.
+
 
 .1) Primary or Primitive or Built-in
 - Integer (int) 

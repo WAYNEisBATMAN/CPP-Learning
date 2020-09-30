@@ -36,8 +36,10 @@ int main()
     int myvariable = 9;
     int *mypointer;          // Declaring Pointer (Use of "*" after datatype.)
     mypointer = &myvariable; // Assigning Value (use of "&" before identifier)
-    cout << *mypointer;      // Access the value pointed by a pointer (use of "*" before identifier)
 
+    cout << mypointer << endl; // Accessing the address pointed by the pointer.
+    cout << &mypointer;
+    cout << *mypointer; // Access the value pointed by a pointer (use of "*" before identifier)
     return 0;
 }
 
