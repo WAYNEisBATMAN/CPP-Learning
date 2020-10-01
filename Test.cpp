@@ -27,51 +27,48 @@
 
 
 */
+
+// C++ program to swap two numbers using
+// pass by reference.
+
 #include <iostream>
 using namespace std;
 
-/// variable declaration in the main function
-struct Students
+void swap(int &x, int &y)
 {
-    int roll_no;
-    int age;
-    int marks;
-};
+    int &z = &x;
+    x = y;
+    y = z;
+    cout << "void" << x << "\n";
+    cout << "void" << y << "\n";
+}
 
 int main()
 {
+    int a = 45, b = 35;
+    cout << "Before Swap\n";
+    cout << "a = " << a << " b = " << b << "\n";
 
-    int a = 5, b = 6, c = 7;
-    float d = 5.54, e = 324, f = 23;
-    cout << a << "\t";
-    cout << b << "\t";
-    cout << c << endl;
+    swap(a, b);
 
-    cout << d << "\t";
-    cout << e << "\t";
-    cout << f;
-    //     struct Students student1, student2, student3; /// Variable declaration
+    cout << "After Swap with pass by reference\n";
+    cout << "a = " << a << " b = " << b << "\n";
+}
 
-    //     /// Varibales initialization
-    //     student1.roll_no = 28;
-    //     student1.age = 22;
-    //     student1.marks = 99;
-    //     student2.roll_no = 29;
-    //     student2.age = 21;
-    //     student2.marks = 100;
-    //     student3.roll_no = 30;
-    //     student3.age = 22;
-    //     student3.marks = 99;
-    //     cout << "Roll No: " << student1.roll_no << "\t";
-    //     cout << "Age: " << student1.age << "\t";
-    //     cout << "Marks: " << student1.marks << endl;
-    //     cout << "Roll No: " << student2.roll_no << "\t";
-    //     cout << "Age: " << student2.age << "\t";
-    //     cout << "Marks: " << student2.marks << endl;
-    //     cout << "Roll No: " << student3.roll_no << "\t";
 
-    //     cout << "Age: " << student3.age
-    //          << "\t";
+#include <iostream>
+using namespace std;
 
-    //     cout << "Marks: " << student3.marks << endl;
+int main()
+{
+    int myvariable = 9;
+    int *mypointer;          // Declaring Pointer (Use of "*" after datatype.)
+    mypointer = &myvariable; // Assigning Value (use of "&" before identifier)
+    int &hello = myvariable;
+
+    cout << &hello << "\n";
+    cout << mypointer << endl; // Accessing the address pointed by the pointer.
+    cout << &mypointer << endl;
+    cout << *mypointer; // Access the value pointed by a pointer (use of "*" before identifier)
+    return 0;
 }

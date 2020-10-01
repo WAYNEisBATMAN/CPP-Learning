@@ -21,9 +21,15 @@ The only difference is in the datatype. While defining the datatype of pointers 
 
 --------------------------------------------------------------------------------------------------------------------------
 
-/ Get the Value from the Address Using Pointers (dereferencing)
-To get the value pointed by a pointer, we use the " * " operator.
 
+/// Reference: Get the memory address of the varible Pointing by the pointer.
+
+/// Dereference: Get the value of the variable to which the pointer is pointing.
+
+NOTE: that the * sign can be confusing here, as it does two different things in our code:
+
+: When used in declaration (int* ptr), it creates a pointer variable.
+: When not used in declaration, it act as a dereference operator.
 --------------------------------------------------------------------------------------------------------------------------
 */
 //Example :
@@ -36,9 +42,11 @@ int main()
     int myvariable = 9;
     int *mypointer;          // Declaring Pointer (Use of "*" after datatype.)
     mypointer = &myvariable; // Assigning Value (use of "&" before identifier)
+    int &hello = myvariable;
 
+    cout << &hello << "\n";
     cout << mypointer << endl; // Accessing the address pointed by the pointer.
-    cout << &mypointer;
+    cout << &mypointer << endl;
     cout << *mypointer; // Access the value pointed by a pointer (use of "*" before identifier)
     return 0;
 }
