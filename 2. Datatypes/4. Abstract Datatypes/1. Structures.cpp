@@ -129,7 +129,7 @@ int main()
 // int main()
 // {
 
-/// Varibales initialization
+/// Variables initialization
 //     student1.roll_no = 28;
 //     student1.age = 22;
 //     student1.marks = 99;

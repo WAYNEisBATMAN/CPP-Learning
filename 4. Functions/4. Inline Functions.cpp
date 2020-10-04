@@ -1,6 +1,6 @@
 /*
 
-: The distinction between normal functions and inline functions is the different compilation process for them.
+- The difference between normal functions and inline functions is the difference in compilation process for them.
 
 / Normal Function Working
 After writing any program, it is first compiled to get an executable code. 

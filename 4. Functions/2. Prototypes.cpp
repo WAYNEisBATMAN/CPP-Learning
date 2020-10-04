@@ -19,14 +19,12 @@ generate problems.
 The compiler does not find what is the function and what is its signature. 
 In that case, we need to function prototypes. 
 If the function is defined before then we do not need prototypes.
-
-
 */
 
 #include <iostream>
 using namespace std;
 
-int sum(int num1, int num2);  /// Function Prototype
+int sum(int num1, int num2); /// Function Prototype
 
 int main()
 {
