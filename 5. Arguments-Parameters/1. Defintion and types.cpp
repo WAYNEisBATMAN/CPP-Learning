@@ -6,7 +6,7 @@ But there is major difference among them
 
 From a function's perspective:
 
-.PARAMETER --> A parameter is the variable listed inside the parentheses in the function definition.
+.PARAMETER --> A parameter is the variable defined during a function declaration or definition.
                     
 .ARGUMENT  --> An argument is the value of the parameter/variable that are sent/given to the function when it is called. 
 --------------------------------------------------------------------------------------------------------------------------  

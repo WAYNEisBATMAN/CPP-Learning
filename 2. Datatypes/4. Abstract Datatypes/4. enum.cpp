@@ -2,7 +2,7 @@
 / Enumeration(Enum)
 An enumeration is a user-defined data type.
 It is used to assign names to the integral constants which makes a program easy to read and maintain. 
-There is no specific use of enums in c++ but we can use it in places.
+There is no specific use of enums in c++ but we can use it in many places.
 --------------------------------------------------------------------------------------------------------------------------
 
 / Defining an Enum

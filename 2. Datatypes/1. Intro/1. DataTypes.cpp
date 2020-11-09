@@ -31,7 +31,6 @@ C++ provides the following user-defined datatypes:
 - Enumeration(Enum)
 - Typedef 
 --------------------------------------------------------------------------------------------------------------------------
-
 */
 
 // > https://www.geeksforgeeks.org/c-data-types/

@@ -39,15 +39,22 @@ else
 / (3)switch case
 
 
-switch (expression)
-{
-    case 1: // code to be executed ;
-        break;  //optional
-    case 2: // code to be executed ;
-        break;  //optional
-    case 2: // code to be executed ;
-        break;  //optional    
-    default: // (optional)code to be executed if n doesn't match any cases
+switch (expression)  {
+    case constant1:
+        // code to be executed if 
+        // expression is equal to constant1;
+        break;
+
+    case constant2:
+        // code to be executed if
+        // expression is equal to constant2;
+        break;
+        .
+        .
+        .
+    default:
+        // code to be executed if
+        // expression doesn't match any constant
 }
 
 >This is how it works:

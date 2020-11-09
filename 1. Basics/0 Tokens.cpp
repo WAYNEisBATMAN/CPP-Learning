@@ -7,7 +7,7 @@ A token is the smallest element of a program that is meaningful to the compiler.
 .1) Identifiers
 .(a) Keywords 
 .(b) Variables
-.(c) Constants
+.(c) Constants(or literals)
 
 .2) Strings
 .3) Special Symbols

@@ -20,7 +20,7 @@ for (initialization ; test/condition ; update )
      // statements we want to execute
 }
 
-NOTE: for loops are used in situations where we know the exact number of iterations of loop beforehand.
+NOTE: for loops are used in situations where we already know the exact number of iterations of loop beforehand.
 
 .2) while loop
 The while loop loops through a block of code as long as a specified condition is true:
@@ -55,18 +55,67 @@ do
 } while (test_expression);
 ---------------------------------------------------------------------------------------------------------------------------
 
-/ Loop Control Statements
-Loop control statements change execution from its normal sequence. 
+/ Jump Statements in C/C++
+These statements are used in C or C++ for unconditional flow of control through out the funtions in a program. 
+They support four type of jump statements:
 
 .1) break statement
 Terminates the loop or switch statement and transfers execution to the statement immediately following the loop or switch.
 Syntax:  
 break;
 
+#include<stdio.h>
+
+void main()
+{
+   int a=0;
+   while(a<6)
+{
+   a++;
+   if(a==5)
+   break;
+   printf("\nStatement %d.",a);
+}
+   printf("\nEnd of Program.");
+}
+
+Output :
+
+Statement 1.
+Statement 2.
+Statemnet 3.
+Statement 4.
+End of Program.
+
 .2) continue statement
-Causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating.
+Causes the loop to skip the current iteration and execute the rest of the iterations.
 Syntax:  
 continue;
+
+
+#include<stdio.h>
+
+void main()
+{
+   int a=0;
+   while(a<6)
+{
+   a++;
+   if(a==5)
+   continue;
+   printf("\nStatement %d.",a);
+}
+   printf("\nEnd of Program.");
+}
+
+Output :
+
+Statement 1.
+Statement 2.
+Statemnet 3.
+Statement 4.
+Statement 6.
+End of Program.
 
 .3) goto statement
 Transfers control to the labeled statement. Though it is not advised to use goto statement in your program.
@@ -78,6 +127,8 @@ label: statement;
 
 Where label is an identifier that identifies a labeled statement. 
 A labeled statement is any statement that is preceded by an identifier followed by a colon (:).
+
+
 
 NOTE: One good use of goto is to exit from a deeply nested routine. 
 NOTE: A simple break statement would not work here, because it would only cause the program to exit from the innermost loop.

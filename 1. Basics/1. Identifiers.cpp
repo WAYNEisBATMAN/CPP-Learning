@@ -42,18 +42,32 @@ Referred to Variables.cpp file
 /*
 / 1(c) Constants
 Constants are like a variable, except that their value never changes during execution once defined.
+Also called as literals in many cases.
 
-There are two other different ways to define constants in C++. 
+- 2 ways to define constants in C++. 
 
-1) By using const keyword
-2) By using #define preprocessor
-
-. Declaration of a constant :
+.1) By using "const" keyword
 
 SYNTAX: const [data_type] [constant_name]=[value];
 
-*/
+const int length 10;
 
+.2) By using "#define" preprocessor
+
+SYNTAX:  #define identifier value;
+
+#define length 10;
+
+/ LITERALS 
+
+The values assigned to each constant variables are referred as the literals.
+Generally both the terms literals and the constant can be used interchangebaly
+At first in c there are no things as "constant".  "literals" are known as the constant 
+but c++ is a different language in this we have both the constant and the literals 
+the values we assigned to the constant varibales are the literals 
+
+
+*/
 // > https://www.tutorialspoint.com/c-cplusplus-tokens
 
 // > https://www.geeksforgeeks.org/cc-tokens/
