@@ -18,21 +18,24 @@
 
 */
 
-/*
-! myarray[]={23,23,4,534,2354,23}
+// ! myarray[]={23,23,4,534,2354,23}
 
-! print all values from while do while and for
-
-*/
-
-// C++ program to swap two numbers using
-// pass by reference.
+// ! print all values from while do while and for
 
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    int a = 5;
-    int &b = a;
+    int r, c;
+    int wayne[r][4] = {{1, 2, 3},
+                       {1, 2, 3},
+                       {3, 4, 5}};
+
+    cout << wayne[3][3] << "\n";
+    cout << "hello"
+         << "\n";
+    cout << wayne[3][4] << "\n";
+
+    return 0;
 }

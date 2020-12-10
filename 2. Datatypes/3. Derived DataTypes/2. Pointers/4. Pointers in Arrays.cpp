@@ -20,7 +20,7 @@ int main()
     // cout << "This is the address of arr[1]: " << ptr++ << endl;
     // cout << "This is the address of arr[2]: " << ptr++ << endl;
     // cout << "This is the address of arr[3]: " << ptr++ << endl;
-    // cout << "This is the address of arr[4]: " << ptr++ << endl;
+    // cout << "This is the address of arr[4]]: " << ptr++ << endl;
 
     /// One of them is to be commented while other is executed otherwise output will change due to change in ptr value.
 

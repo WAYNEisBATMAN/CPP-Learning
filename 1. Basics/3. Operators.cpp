@@ -29,17 +29,25 @@ Binary operators are classified into :
 It is used to assign values. 
 (=, +=, -=, *=, /=, %=, <<, >>=, &=, ^=, |= )	 
 
-*(e) Bitwise Operators       
-<<, !=, >>, ~, |, &, ^ 
+*(e) Bitwise Operators      
+as name suggests it does bitwise manipulation 
+<<(left shift), >>(right shift), ~(NOT), |(OR), &(AND), ^(XOR)
 
 ! For explanation of each operator, go to the links down below. 
 //------------------------------------------------------------------------------------------------------------------------
 
 .iii) Ternary operators:
 Those operators which requires three operands to act upon. 
-For Example Conditional operator(?:).
+For Example Conditional operator( ? : ).
+
+SYNTAX:   condition ? expression1 : expression2  
+
+first the condition is evalualted if it is true expression is executed otherwise expression2 is executed.
+
+
 
 */
+
 //------------------------------------------------------------------------------------------------------------------------
 
 // > https://www.tutorialspoint.com/c-cplusplus-tokens

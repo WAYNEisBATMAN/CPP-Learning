@@ -22,8 +22,8 @@ An actual parameter is a parameter which is in the function call.
 They are simply called arguments.                         
  
 NOTE: From all the above discussion we can say that  
-Parameters = Formal Arguments
-Arguments = Actual Arguments
+Parameters = Formal Parameters
+Arguments = Actual Parameters
 --------------------------------------------------------------------------------------------------------------------------  
 
 / Default arguments
@@ -39,7 +39,7 @@ Note: But condition is that default arguments should be at the last position in 
 
 -Default arguments can also be overwrite.
 
-int sum(int a, int b, int c=5);   /// Function definition 
+int sum(int a=5, int b, int c);   /// Function definition 
 sum(3,4,6)                        /// Function call
 --------------------------------------------------------------------------------------------------------------------------  
 
