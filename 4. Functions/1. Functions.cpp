@@ -12,7 +12,7 @@
 
 To create (often referred to as declare) a function, specify the name of the function, followed by parentheses ():
 
-type function_name()
+returntype function_name(parameter1, parameter2, ....)
 {
     //code to be executed
 }
