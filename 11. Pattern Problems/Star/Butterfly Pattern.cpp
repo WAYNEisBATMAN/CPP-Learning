@@ -1,6 +1,6 @@
 /*
 / 
-.1) Butterlfly Pattern 
+.1) Butterfly With Stars
 
 *                  *
 * *              * *
@@ -14,7 +14,7 @@
 *                  *
 
 There are four parts in this pattern 2 parts at the upperside and 2 at lowerside
-first make the logic for left upper half
+first make the logic for left uppesr half
 then for the number of spaces between the left upper half and the right upper half
 then for the right upper half.
 
@@ -88,6 +88,3 @@ int main()
 
     return 0;
 }
-
-
-
