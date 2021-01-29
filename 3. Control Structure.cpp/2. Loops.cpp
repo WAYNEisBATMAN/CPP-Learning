@@ -34,6 +34,14 @@ while (test_expression)
   update_expression;
 }
 
+:Another interesting way to write a while loop
+while(n--)
+{
+   //statments
+}
+This will go until becomes 0 and 0 means false so loop will stop at 0.
+first iteration value of n will be n after that it will decrement by 1 in each step as it is an post increment.
+
 NOTE: while loops are used in situations where we do not know the exact number of iterations of loop beforehand.
 
 .B)Exit Controlled Loops: 
